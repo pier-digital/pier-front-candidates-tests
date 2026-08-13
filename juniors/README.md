@@ -22,9 +22,14 @@ Use o Figma como referência visual para cores, espaçamentos, tipografia e comp
 ## Como começar
 
 ```bash
+git checkout -b "nome-candidato" 
+
 yarn install
 yarn dev
 ```
+
+## Lembre-se
+Você deverá comitar o que fez a branhc final e abrir um pull request quando acabar (ou se o tempo acabar)
 
 ---
 
