@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["ultracite/biome/core", "ultracite/biome/react"],
+  "linter": {
+    "rules": {
+      "suspicious": {
+        // console.log é comum em exercícios — desligado para não confundir o candidato
+        "noConsole": "off"
+      },
+      "style": {
+        // candidato pode usar kebab-case ou PascalCase para componentes
+        "useFilenamingConvention": "off"
+      },
+      "correctness": {
+        // permite importações sem extensão (padrão Vite/React)
+        "useImportExtensions": "off"
+      }
+    }
+  }
+}

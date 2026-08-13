@@ -1,0 +1,27 @@
+{
+  "name": "pier-junior-test",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write ."
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.51.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "sass": "^1.71.1",
+    "ultracite": "^7.10.3",
+    "vite": "^6.0.0"
+  }
+}
